@@ -9,7 +9,7 @@ const Homepage = () => {
     <>
       <h1>Homepage</h1>
       <p>
-        Go to <Link to="/products">Products page</Link>
+        Go to <Link to="products">Products page</Link>
       </p>
       <button onClick={handleNavigate}>Go to Products</button>
     </>
